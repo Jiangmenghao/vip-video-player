@@ -69,6 +69,7 @@ a:hover {
 
 .option {
     margin: 0 auto 10px auto;
+    background-color: #fff;
     width: 600px;
     height: 40px;
     border: 1px solid cadetblue;
@@ -91,6 +92,7 @@ a:hover {
     display: inline-block;
     float: left;
     padding-left: 10px;
+    background-color: ;
     width: 500px;
     height: 40px;
     font-size: 1.2rem;
@@ -100,7 +102,7 @@ a:hover {
     margin: 0 auto 20px auto;
     width: 600px;
     height: 40px;
-    background-color: mistyrose;
+    background-color: #fff;
     border: 1px solid cadetblue;
     -webkit-border-radius: 7px;
        -moz-border-radius: 7px;
@@ -136,7 +138,7 @@ a:hover {
 .play > button {
     cursor: pointer;
     width: 600px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #fff;
     line-height: 44px;
     background-color: dodgerblue;
@@ -156,7 +158,7 @@ a:hover {
 .new-window-play > button {
     cursor: pointer;
     width: 600px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #fff;
     line-height: 44px;
     background-color: dodgerblue;
