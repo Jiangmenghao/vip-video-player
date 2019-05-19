@@ -1,0 +1,173 @@
+body {
+    margin: 0 auto;
+    background-image: url("http://bingbeauty.totootool.com/201804/MozambiqueSandbar_ZH-CN12673484802_640x480.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+    font-size: 10px;
+    font-family: "Microsoft YaHei UI", sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darksalmon;
+}
+
+.container {
+    width: 680px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.head {
+    margin: 10px auto 10px auto;
+    width: 600px;
+    height: 100px;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    -webkit-border-radius: 7px;
+       -moz-border-radius: 7px;
+            border-radius: 7px;
+    overflow: hidden;
+}
+
+.head > p:first-child{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: mistyrose;
+}
+
+.head > p:nth-child(2) {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 0.5rem;
+}
+
+.head > p:last-child {
+    font-size: 0.8rem;
+    color: black;
+    line-height: 1.2rem;
+    background-color: aliceblue;
+}
+
+.iframe {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto 10px auto;
+    background-image: url("http://wx4.sinaimg.cn/large/89c3a926ly1flz8ilwd2sj21gs0ukq5o.jpg");
+    border: 10px solid #fff;
+    -webkit-border-radius: 7px;
+       -moz-border-radius: 7px;
+            border-radius: 7px;
+    overflow: hidden;
+}
+
+.option {
+    margin: 0 auto 10px auto;
+    width: 600px;
+    height: 40px;
+    border: 1px solid cadetblue;
+    -webkit-border-radius: 7px;
+       -moz-border-radius: 7px;
+            border-radius: 7px;
+    overflow: hidden;
+}
+.option > span {
+    display: inline-block;
+    float: left;
+    width: 100px;
+    height: 40px;
+    font-size: 1.2rem;
+    line-height: 40px;
+    background-color:mintcream;
+}
+
+.option > select {
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px;
+    font-size: 1.2rem;
+}
+
+.url {
+    margin: 0 auto 20px auto;
+    width: 600px;
+    height: 40px;
+    background-color: mistyrose;
+    border: 1px solid cadetblue;
+    -webkit-border-radius: 7px;
+       -moz-border-radius: 7px;
+            border-radius: 7px;
+    overflow: hidden;
+}
+
+.url > span {
+    display: inline-block;
+    float: left;
+    width: 100px;
+    height: 40px;
+    font-size: 1.2rem;
+    line-height: 40px;
+    background-color: mintcream;
+}
+
+.url > input {
+    display: inline-block;
+    float: left;
+    width: 496px;
+    height: 34px;
+    font-size: 1.2rem;
+}
+
+.play {
+    margin: 0 auto 20px auto;
+    width: 600px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.play > button {
+    cursor: pointer;
+    width: 600px;
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 44px;
+    background-color: dodgerblue;
+    border: 1px solid mintcream;
+    -webkit-border-radius: 7px;
+       -moz-border-radius: 7px;
+            border-radius: 7px;
+}
+
+.new-window-play {
+    margin: 0 auto 20px auto;
+    width: 600px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.new-window-play > button {
+    cursor: pointer;
+    width: 600px;
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 44px;
+    background-color: dodgerblue;
+    border: 1px solid mintcream;
+    -webkit-border-radius: 7px;
+       -moz-border-radius: 7px;
+            border-radius: 7px;
+}
+
+.copyright {
+    margin: 0 auto 20px 0;
+    font-size: 0.8rem;
+    color: #fff;
+}
