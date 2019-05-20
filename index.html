@@ -8,31 +8,35 @@
     <title>黑猫VIP视频破解</title>
     <link rel="shortcut icon" href="favicon.ico.png">
     <link rel="stylesheet" href="style.css">
+    <script src="play.js"></script>
 </head>
 <body>
 <section class="container">
     <div class="head">
         <p>黑猫VIP视频破解</p>
-        <p>http://vip.heimaokeji.xyz</p>
+        <p>https://vip.heimaokeji.xyz</p>
         <p>建议使用新窗口播放</p>
     </div>
-    <div class="iframe">iframe</div>
+    <div class="iframe">
+        <iframe class="frame" id="player" src="sea.jpg" frameborder="0" scrolling="no"></iframe>
+    </div>
     <div class="option">
         <span>解析接口</span>
         <select name="channel" id="api">
             <option value="http://www.wmxz.wang/video.php?url=">VIP通道①</option>
-            <option value="http://api.ledboke.com/?url=">VIP通道②</option>
+            <option value="https://api.smq1.com/?url=">VIP通道②</option>
+            <option value="http://api.ledboke.com/?url=">VIP通道③</option>
         </select>
     </div>
     <div class="url">
         <span>视频链接</span>
-        <input type="text" placeholder="请输入视频页面地址">
+        <input type="text" id="mediaUrl" placeholder="请输入视频页面地址">
     </div>
     <div class="play">
-        <button>播放</button>
+        <button onclick="play()">播放</button>
     </div>
     <div class="new-window-play">
-        <button>新窗口播放</button>
+        <button onclick="playNewWindow()">新窗口播放</button>
     </div>
     <div class="copyright">Copyright&copy;2016-2019 <a href="#">黑猫科技</a></div>
 </section>
