@@ -1,3 +1,6 @@
+html {
+    font-size: 62.5%;
+}
 body {
     margin: 0 auto;
     background-image: url("http://bingbeauty.totootool.com/201804/MozambiqueSandbar_ZH-CN12673484802_640x480.jpg");
@@ -5,7 +8,6 @@ body {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
             background-size: cover;
-    font-size: 10px;
     font-family: "Microsoft YaHei UI", sans-serif;
 }
 
@@ -28,8 +30,8 @@ a:hover {
     margin: 10px auto 10px auto;
     width: 600px;
     height: 100px;
-    background-color: cadetblue;
-    border: 1px solid cadetblue;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
     -webkit-border-radius: 7px;
        -moz-border-radius: 7px;
             border-radius: 7px;
@@ -37,21 +39,21 @@ a:hover {
 }
 
 .head > p:first-child{
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    color: mistyrose;
+    font-size: 1.92rem;
+    line-height: 1.92rem;
+    color: #fff;
 }
 
 .head > p:nth-child(2) {
-    font-size: 1rem;
-    color: #fff;
-    line-height: 0.5rem;
+    font-size: 1.6rem;
+    color: mistyrose;
+    line-height: 0.8rem;
 }
 
 .head > p:last-child {
-    font-size: 0.8rem;
+    font-size: 1.28rem;
     color: black;
-    line-height: 1.2rem;
+    line-height: 1.92rem;
     background-color: aliceblue;
 }
 
@@ -76,7 +78,7 @@ a:hover {
     background-color: #fff;
     width: 600px;
     height: 40px;
-    border: 1px solid cadetblue;
+    border: 1px solid dodgerblue;
     -webkit-border-radius: 7px;
        -moz-border-radius: 7px;
             border-radius: 7px;
@@ -87,18 +89,19 @@ a:hover {
     float: left;
     width: 100px;
     height: 40px;
-    font-size: 1.2rem;
+    font-size: 1.92rem;
+    color: #fff;
     line-height: 40px;
-    background-color:mintcream;
+    background-color: deepskyblue;
 }
 
 .option > select {
     display: inline-block;
     float: left;
-    padding-left: 10px;
+    padding-left: 20px;
     width: 500px;
     height: 40px;
-    font-size: 1.2rem;
+    font-size: 1.92rem;
 }
 
 .url {
@@ -118,9 +121,10 @@ a:hover {
     float: left;
     width: 100px;
     height: 40px;
-    font-size: 1.2rem;
+    font-size: 1.92rem;
+    color: #fff;
     line-height: 40px;
-    background-color: mintcream;
+    background-color: deepskyblue;
 }
 
 .url > input {
@@ -128,7 +132,7 @@ a:hover {
     float: right;
     width: 478px;
     height: 34px;
-    font-size: 1rem;
+    font-size: 1.6rem;
     border: 0;
     outline: none;
 }
@@ -143,7 +147,7 @@ a:hover {
 .play > button {
     cursor: pointer;
     width: 600px;
-    font-size: 1.2rem;
+    font-size: 1.92rem;
     color: #fff;
     line-height: 44px;
     background-color: dodgerblue;
@@ -151,6 +155,10 @@ a:hover {
     -webkit-border-radius: 7px;
        -moz-border-radius: 7px;
             border-radius: 7px;
+}
+
+.play > button:hover {
+    background-color: deepskyblue;
 }
 
 .new-window-play {
@@ -163,7 +171,7 @@ a:hover {
 .new-window-play > button {
     cursor: pointer;
     width: 600px;
-    font-size: 1.2rem;
+    font-size: 1.92rem;
     color: #fff;
     line-height: 44px;
     background-color: dodgerblue;
@@ -173,8 +181,12 @@ a:hover {
             border-radius: 7px;
 }
 
+.new-window-play > button:hover {
+    background-color: deepskyblue;
+}
+
 .copyright {
     margin: 0 auto 20px 0;
-    font-size: 0.8rem;
+    font-size: 1.28rem;
     color: #fff;
 }
