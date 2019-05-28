@@ -1,192 +1,42 @@
-html {
-    font-size: 62.5%;
-}
 body {
-    margin: 0 auto;
-    background-image: url("http://bingbeauty.totootool.com/201804/MozambiqueSandbar_ZH-CN12673484802_640x480.jpg");
+    background-image: url("img/back3.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
-            background-size: cover;
-    font-family: "Microsoft YaHei UI", sans-serif;
+    background-size: cover;
+    margin-top: 5px;
+}
+
+p {
+    color: #eee;
+    margin-top: 20px;
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
-}
-
-a:hover {
-    color: darksalmon;
-}
-
-.container {
-    width: 680px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.head {
-    margin: 10px auto 10px auto;
-    width: 600px;
-    height: 100px;
-    background-color: dodgerblue;
-    border: 1px solid dodgerblue;
-    -webkit-border-radius: 7px;
-       -moz-border-radius: 7px;
-            border-radius: 7px;
-    overflow: hidden;
-}
-
-.head > p:first-child{
-    font-size: 1.92rem;
-    line-height: 1.92rem;
-    color: #fff;
-}
-
-.head > p:nth-child(2) {
-    font-size: 1.6rem;
-    color: mistyrose;
-    line-height: 0.8rem;
-}
-
-.head > p:last-child {
-    font-size: 1.28rem;
-    color: black;
-    line-height: 1.92rem;
-    background-color: aliceblue;
-}
-
-.iframe {
-    width: 600px;
-    height: 400px;
-    margin: 0 auto 10px auto;
-    background-color: #000;
-    border: 10px solid #fff;
-    -webkit-border-radius: 7px;
-       -moz-border-radius: 7px;
-            border-radius: 7px;
-    overflow: hidden;
+    color: #ddd;
 }
 
 .frame {
     width: 100%;
+    height: 400px;
+    margin-top: -5px;
+    background-color: #000;
+    border: 10px solid #fff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+iframe {
+    width: 100%;
     height: 100%;
 }
-.option {
-    margin: 0 auto 10px auto;
-    background-color: #fff;
-    width: 600px;
-    height: 40px;
-    border: 1px solid dodgerblue;
-    -webkit-border-radius: 7px;
-       -moz-border-radius: 7px;
-            border-radius: 7px;
-    overflow: hidden;
-}
-.option > span {
-    display: inline-block;
-    float: left;
-    width: 100px;
-    height: 40px;
-    font-size: 1.92rem;
-    color: #fff;
-    line-height: 40px;
-    background-color: deepskyblue;
-}
 
-.option > select {
-    display: inline-block;
-    float: left;
-    padding-left: 20px;
-    width: 500px;
-    height: 40px;
-    font-size: 1.92rem;
-}
-
-.url {
-    margin: 0 auto 20px auto;
-    width: 600px;
-    height: 40px;
-    background-color: #fff;
-    border: 1px solid cadetblue;
-    -webkit-border-radius: 7px;
-       -moz-border-radius: 7px;
-            border-radius: 7px;
-    overflow: hidden;
-}
-
-.url > span {
-    display: inline-block;
-    float: left;
-    width: 100px;
-    height: 40px;
-    font-size: 1.92rem;
-    color: #fff;
-    line-height: 40px;
-    background-color: deepskyblue;
-}
-
-.url > input {
-    display: inline-block;
-    float: right;
-    width: 478px;
-    height: 34px;
-    font-size: 1.6rem;
-    border: 0;
-    outline: none;
-}
-
-.play {
-    margin: 0 auto 20px auto;
-    width: 600px;
-    height: 50px;
-    overflow: hidden;
-}
-
-.play > button {
-    cursor: pointer;
-    width: 600px;
-    font-size: 1.92rem;
-    color: #fff;
-    line-height: 44px;
-    background-color: dodgerblue;
-    border: 1px solid mintcream;
-    -webkit-border-radius: 7px;
-       -moz-border-radius: 7px;
-            border-radius: 7px;
-}
-
-.play > button:hover {
-    background-color: deepskyblue;
-}
-
-.new-window-play {
-    margin: 0 auto 20px auto;
-    width: 600px;
-    height: 50px;
-    overflow: hidden;
-}
-
-.new-window-play > button {
-    cursor: pointer;
-    width: 600px;
-    font-size: 1.92rem;
-    color: #fff;
-    line-height: 44px;
-    background-color: dodgerblue;
-    border: 1px solid mintcream;
-    -webkit-border-radius: 7px;
-       -moz-border-radius: 7px;
-            border-radius: 7px;
-}
-
-.new-window-play > button:hover {
-    background-color: deepskyblue;
-}
-
-.copyright {
-    margin: 0 auto 20px 0;
-    font-size: 1.28rem;
-    color: #fff;
+form {
+    background-color: #eee;
+    padding: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
 }
