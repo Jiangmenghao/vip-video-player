@@ -3,10 +3,18 @@ function play() {
     let index = myApi.selectedIndex;
     let apiValue = myApi.options[index].value;
     let myText = document.getElementById("mediaUrl").value;
-    document.getElementById("player").src = apiValue + myText;
+    if (myText !== '') {
+        document.getElementById("player").src = apiValue + myText;
 
-    const timer = null;
-    scrollTop(timer);
+        const timer = null;
+        scrollTop(timer);
+        setTimeout(function () {
+            let donate = document.getElementsByClassName("donate")[0];
+            donate.style.opacity = "1";
+        },2000);
+    }else {
+        alert("请输入视频链接");
+    }
 }
 
 function playNewWindow() {
@@ -16,7 +24,11 @@ function playNewWindow() {
 
     let myText = document.getElementById("mediaUrl").value;
 
-    window.open(apiValue + myText);
+    if (myText !== '') {
+        window.open(apiValue + myText);
+    }else {
+        alert("请输入视频链接");
+    }
 }
 
 function scrollTop(timer) {
@@ -28,5 +40,10 @@ function scrollTop(timer) {
         if (osTop === 0) {
             clearInterval(timer);
         }
-    },10);
+    },10)
+}
+
+function hiddenDonate() {
+    let donate = document.getElementsByClassName("donate")[0];
+    donate.style.opacity = "0";
 }

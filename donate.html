@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>感谢您的捐赠</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #we-pay,
+        #qq-pay {
+            display: none;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <img id="we-pay" src="img/wepay.jpg" alt="微信支付">
+    <img id="qq-pay" src="img/qqpay.png" alt="QQ钱包">
+</body>
+<script>
+    if(navigator.userAgent.match(/Alipay/i)) {
+        // 支付宝扫描
+        window.location.href = "HTTPS://QR.ALIPAY.COM/FKX04860YSWCWAKXGDKE0F";
+    } else if(navigator.userAgent.match(/MicroMessenger\//i)) {
+        // 微信扫描
+        document.getElementById("we-pay").style.display = "block";
+        alert("请长按二维码O(∩_∩)O");
+    } else if(navigator.userAgent.match(/QQ\//i)) {
+        // QQ扫描
+        document.getElementById("qq-pay").style.display = "block";
+        alert("请长按二维码O(∩_∩)O");
+    } else {
+        // 其他浏览器扫描
+        alert("请使用支付宝、微信或QQ扫描，感谢您的支持");
+    }
+</script>
+</html>
