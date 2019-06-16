@@ -66,3 +66,9 @@ button.hidden-icon {
     margin-top: 10px;
     border: 0;
 }
+
+.donate-mobile {
+    margin-top: 10px;
+    opacity: 0;
+    transition: 2s;
+}
