@@ -12,6 +12,7 @@ function play() {
             let donate = document.getElementsByClassName("donate")[0];
             donate.style.opacity = "1";
         },2000);
+
         let donateMobile = document.getElementById("donate-mobile");
         donateMobile.setAttribute("class","");
         donateMobile.classList.add("col-sm-8", "col-sm-offset-2", "col-xs-10", "col-xs-offset-1", "donate-mobile", "visible-sm-block", "visible-xs-block");
