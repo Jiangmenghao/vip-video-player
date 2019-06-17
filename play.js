@@ -11,6 +11,8 @@ function play() {
         setTimeout(function () {
             let donate = document.getElementsByClassName("donate")[0];
             donate.style.opacity = "1";
+            let qrcode = document.getElementById("qrcode");
+            qrcode.style.transform = "scale(1.3)";
         },2000);
 
         let donateMobile = document.getElementById("donate-mobile");
