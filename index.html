@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
     <link rel="shortcut icon" href="favicon.ico.png">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
     <script src="play.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141728127-1"></script>
@@ -47,7 +48,7 @@
                 <div class="panel-body">
                     <img id="qrcode" src="img/Allpay-85.png" alt="donate">
                     <br>
-                    <button class="btn btn-default glyphicon glyphicon-remove-circle hidden-icon" data-toggle="tooltip" title="隐藏" onclick="hiddenDonate()"></button>
+                    <button class="btn btn-default glyphicon glyphicon-remove-circle hidden-icon" data-toggle="tooltip" title="隐藏"></button>
                 </div>
             </div>
         </div>
@@ -79,12 +80,12 @@
                 </div>
                 <div class="form-group">
                     <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-                        <button type="button" class="btn btn-primary btn-block btn-lg" onclick="play()">播放</button>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="button-play">播放</button>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-                        <button type="button" class="btn btn-default btn-block btn-lg" onclick="playNewWindow()">新窗口播放</button>
+                        <button type="button" class="btn btn-default btn-block btn-lg" id="button-new-window">新窗口播放</button>
                     </div>
                 </div>
             </form>
@@ -100,16 +101,6 @@
         </div>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
-<script>
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-    });
-
-    document.querySelector('#formInfo').addEventListener('submit',function(e){
-        e.preventDefault();
-    },false);
-</script>
 </body>
 </html>
