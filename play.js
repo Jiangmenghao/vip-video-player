@@ -13,6 +13,8 @@ $(function () {
                 $("#qrcode").css("transform","scale(1.3)");//二维码放大
             },2000);
             $("#donate-mobile").removeClass().addClass("col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 donate-mobile visible-sm-block visible-xs-block").delay(3000).animate({opacity:1});//显示移动端捐赠按钮
+        }else {
+            alert("请输入视频链接");
         }
     });
 
