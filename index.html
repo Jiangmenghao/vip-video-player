@@ -1,102 +1,53 @@
-<!doctype html>
-<html lang="zh-CN">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content="黑猫VIP视频解析">
-    <meta name="description" content="黑猫VIP视频解析-做最好的VIP视频解析平台，网站涵盖爱奇艺、腾讯视频、优酷视频等海量会员视频资源，去广告在线播放，永久免费。">
-    <title>黑猫VIP视频解析</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="favicon.ico.png">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
-    <script src="play.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141728127-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>黑猫VIP视频解析</title>
+  <link rel="icon" href="./favicon.ico.png">
+  <link rel="stylesheet" href="./style.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141728127-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-        gtag('config', 'UA-141728127-1');
-    </script>
+      gtag('config', 'UA-141728127-1');
+  </script>
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
-            <div class="panel panel-primary text-center">
-                <div class="panel-heading">
-                    <h1 class="panel-title">黑猫VIP视频解析</h1>
-                </div>
-                <div class="panel-body">https://vip.heimaokeji.xyz</div>
-            </div>
+  <div class="card">
+    <div class="card-front">
+      <img src="./cats_42kb.jpg" alt="cat">
+      <div class="desc">
+        <div class="text">黑猫VIP视频解析</div>
+        <a href="https://vip.heimaokeji.xyz" class="link" target="_blank">https://vip.heimaokeji.xyz</a>
+      </div>
+      <form>
+        <input type="url" id="media-url" placeholder="请输入视频链接" required autocomplete="off">
+        <div class="apis">
+          <input type="radio" id="api1" class="api" name="contact" value="https://jx.jiubojx.com/vip.php?url=" checked>
+          <label for="api1">线路1</label>
+  
+          <input type="radio" id="api2" class="api" name="contact" value="https://www.administratorw.com/video.php?url=">
+          <label for="api2">线路2</label>
         </div>
+        <button type="submit" class="play">播放</button>
+      </form>
     </div>
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3  col-sm-10 col-sm-offset-1">
-            <div class="frame">
-                <iframe id="player" frameborder="0" scrolling="no" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-md-2 col-md-offset-1 hidden-sm hidden-xs text-center donate">
-            <div class="panel panel-info">
-                <div class="panel-heading">好用？捐赠一元吧😊
-                </div>
-                <div class="panel-body">
-                    <img id="qrcode" src="img/Allpay-85.png" alt="donate">
-                    <br>
-                    <button class="btn btn-default glyphicon glyphicon-remove-circle hidden-icon" data-toggle="tooltip" title="隐藏"></button>
-                </div>
-            </div>
-        </div>
+    <div class="card-back">
+      <iframe class="player"
+              src=""
+              frameborder="0"
+              allowfullscreen></iframe>
+      <div class="button-container">
+        <button class="return" title="返回首页">
+          <svg t="1597601040206" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7757" width="20" height="20"><path d="M112.228037 296.934806c0 0 80.84119-125.866662 208.754464-193.404871s285.502429-48.095391 388.856355 17.396205 138.146337 120.750131 138.146337 120.750131l89.027639-51.16531c0 0 18.419512-9.209756 18.419512 12.279674s0 321.318146 0 321.318146 0 28.652574-21.48943 18.419512c-18.078751-8.609075-213.596749-120.784924-275.207969-156.176992-33.830503-15.226796-4.107551-27.595498-4.107551-27.595498l85.910649-49.541323c0 0-49.004087-61.923328-120.724549-94.717222-76.773548-40.359196-148.645458-45.144176-236.690724-11.608386-57.407478 21.86703-124.999922 77.853136-173.680645 160.560836C112.228037 296.934806 112.228037 296.934806 112.228037 296.934806zM910.406872 721.592552c0 0-80.84119 125.866662-208.754464 193.404871s-285.502429 48.095391-388.856355-17.396205-138.146337-120.750131-138.146337-120.750131l-89.027639 51.16531c0 0-18.419512 9.209756-18.419512-12.279674s0-321.318146 0-321.318146 0-28.652574 21.48943-18.419512c18.078751 8.609075 213.596749 120.784924 275.207969 156.176992 33.830503 15.226796 4.107551 27.595498 4.107551 27.595498l-85.910649 49.541323c0 0 49.004087 61.923328 120.724549 94.717222 76.773548 40.359196 148.645458 45.144176 236.690724 11.608386 57.407478-21.86703 124.999922-77.853136 173.680645-160.560836C910.406872 721.592552 910.406872 721.592552 910.406872 721.592552z" p-id="7758" fill="#ffffff"></path></svg>
+        </button>
+      </div>
     </div>
-    <div class="row">
-        <div id="donate-mobile" class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 hidden donate-mobile">
-            <a class="btn btn-info btn-block" href="donate-mobile.html" target="_blank">好用？捐赠一元吧😊</a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
-            <form class="form-horizontal text-center" id="formInfo" onsubmit="play()">
-                <div class="form-group">
-                    <label for="api" class="col-md-2 col-sm-2 control-label">解析接口</label>
-                    <div class="col-md-10 col-sm-10">
-                        <select name="api" id="api" class="form-control">
-                            <option value="https://api.smq1.com/?url=">VIP通道①</option>
-                            <option value="https://www.administratorw.com/video.php?url=">VIP通道②</option>
-                            <option value="http://api.ledboke.com/?url=">VIP通道③（新窗口播放）</option>
-                            <option value="http://www.wmxz.wang/video.php?url=">VIP通道④（新窗口播放）</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="mediaUrl" class="col-md-2 col-sm-2 control-label">视频链接</label>
-                    <div class="col-md-10 col-sm-10">
-                        <input type="text" class="form-control" id="mediaUrl" placeholder="请输入视频页面地址" autocomplete="off">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="button-play">播放</button>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-                        <button type="button" class="btn btn-default btn-block btn-lg" id="button-new-window">新窗口播放</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-            <p class="text-center">Copyright&nbsp;&copy;&nbsp;2016&nbsp;-&nbsp;<script>document.write(new Date().getFullYear().toString());</script>&nbsp;<a href="#" data-toggle="tooltip" data-placement="top" title="暂未开放">黑猫科技</a>&nbsp;|&nbsp;<a href="mailto:vip@heimaokeji.xyz?subject=用户反馈">发送邮件</a></p>
-        </div>
-    </div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+  </div>
+  <script src="./script.js"></script>
 </body>
 </html>
