@@ -24,8 +24,8 @@ CodePen 版本在这里 ✏️ [codepen.io](https://codepen.io/jiangmenghao/pen/
 
 ## 支持深色模式
 <p>
-  <img src="./demo-imgs/light.JPEG" style="max-width: 300px">
-  <img src="./demo-imgs/dark.JPEG" style="max-width: 300px">
+  <img src="./demo-imgs/light.JPEG" width="300px" title="浅色模式">
+  <img src="./demo-imgs/dark.JPEG" width="300px" title="深色模式">
 </p>
 
 ---
