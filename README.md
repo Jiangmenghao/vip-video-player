@@ -22,6 +22,9 @@ CodePen 版本在这里 ✏️ [codepen.io](https://codepen.io/jiangmenghao/pen/
 ## 截图
 ![PC截图](./demo-imgs/demo-screenshot.png 'PC截图')
 
+## 支持深色模式
+<img src="./demo-imgs/light.JPEG" style="max-width: 300px"><img src="./demo-imgs/dark.JPEG" style="max-width: 300px">
+
 ---
 
 ## Show your support
