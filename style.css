@@ -236,8 +236,8 @@ body {
 /* dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --link-color: #1f4068;
-    --theme-color: #121212;
+    --link-color: #999999;
+    --theme-color: #000000;
     --shadow-right-bottom-color: #0f0f0f;
     --shadow-left-top-color: #151515;
     --input-right-bottom-color: #6d6d6d;
@@ -246,11 +246,11 @@ body {
   }
 
   .card-front, .card-back {
-    background-color: #162447;
+    background-color: #1a1a1d;
   }
 
   .card-front img {
-    opacity: .75;
+    opacity: .8;
   }
 
   .card-front .desc .text,
@@ -265,5 +265,10 @@ body {
 
   .card-front form #media-url:hover {
     background: linear-gradient(145deg, #737373, #898989);
+  }
+
+  .card-front form .play {
+    background: #E43F5A;
+    box-shadow: none;
   }
 }
