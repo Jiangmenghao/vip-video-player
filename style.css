@@ -198,6 +198,10 @@ body {
             inset -2px -2px 4px var(--shadow-left-top-color);
 }
 
+
+/* 横向时画面比例 */
+
+/* iPhone 6 & 横屏*/
 @media screen and (max-width: 667px) and (orientation: landscape) {
   .card.turn-to-back {
     height: 94vh;
@@ -212,7 +216,8 @@ body {
   }
 }
 
-@media screen and (min-width: 668px) and (max-width: 812px) and (orientation: landscape) {
+/* iPhone 12 Pro Max & 横屏*/
+@media screen and (min-width: 668px) and (max-width: 926px) and (orientation: landscape) {
   .card.turn-to-back {
     width: 62.8%;
     height: 90vh;
@@ -227,9 +232,10 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
+/* iPad及以上 & 横屏*/
+@media screen and (min-width: 927px) {
   .card.turn-to-back {
-    height: 800px;
+    height: 90vh;
   }
 }
 
