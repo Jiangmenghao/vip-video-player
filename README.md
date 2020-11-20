@@ -10,9 +10,9 @@ VIP视频解析-前端页面，解析功能由第三方接口实现，本项目�
 
 纯静态页面，浏览器打开即用，无需PHP运行环境。
 
-总体积小于 0.1MB。
+代码总体积小于 0.1MB。
 
-CodePen 版本在这里 ✏️ [codepen.io](https://codepen.io/jiangmenghao/pen/gOrrQGQ).
+CodePen 版本在这里 ✏️ [codepen.io](https://codepen.io/jiangmenghao/pen/gOrrQGQ).（年久失修）
 
 ---
 
