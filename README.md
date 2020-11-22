@@ -21,6 +21,7 @@ CodePen 版本在这里 ✏️ [codepen.io](https://codepen.io/jiangmenghao/pen/
 
 ## 截图
 ![PC截图](./demo-imgs/demo-screenshot.png 'PC截图')
+![PC截图](./demo-imgs/3.png 'PC截图')
 
 ## 支持深色模式
 <p>
