@@ -48,8 +48,8 @@ body {
 
 .card.turn-to-back {
   transform: rotateY(180deg);
-  box-shadow:  -20px 20px 60px var(--shadow-right-bottom-color), 
-              20px -20px 60px var(--shadow-left-top-color);
+  box-shadow:  -20px 20px 20px var(--shadow-right-bottom-color), 
+              20px -20px 20px var(--shadow-left-top-color);
   width: 80%;
 }
 
@@ -145,6 +145,7 @@ body {
                 -2px -2px 8px #8c8c8c;
   color: #fff;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .card-front form .play:hover {
@@ -198,6 +199,32 @@ body {
             inset -2px -2px 4px var(--shadow-left-top-color);
 }
 
+.copyright {
+  position: fixed;
+  bottom: 6px;
+}
+
+.copyright :not(.author-link){
+  color: #fff;
+}
+
+.copyright p {
+  margin: 0;
+}
+
+.copyright .cprt {
+  display: none;
+}
+
+.copyright .author-link {
+  display: inline-block;
+  font-weight: bolder;
+  padding: 0 4px;
+  background-color: rgba(255, 255, 255, .6);
+  border-radius: 4px;
+  transition: .3s ease-in-out;
+}
+
 
 /* 横向时画面比例 */
 
@@ -213,6 +240,10 @@ body {
 
   .card .card-back .button-container {
     flex: 1.5;
+  }
+
+  footer {
+    display: none;
   }
 }
 
@@ -230,12 +261,33 @@ body {
   .card .card-back .button-container {
     flex: 1.5;
   }
+
+  footer {
+    display: none;
+  }
 }
 
 /* iPad及以上 & 横屏*/
 @media screen and (min-width: 927px) {
   .card.turn-to-back {
     height: 90vh;
+  }
+
+  .copyright .author-link:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
+  }
+
+  .copyright .author-link:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
+  }
+}
+
+/* iPhone5、5c、5s、SE不显示footer */
+@media screen and (max-width: 320px) {
+  footer {
+    display: none;
   }
 }
 
@@ -276,5 +328,10 @@ body {
   .card-front form .play {
     background: #E43F5A;
     box-shadow: none;
+  }
+
+  .copyright .author-link {
+    color:  rgba(228, 63, 90, .8);
+    background-color: rgba(255, 255, 255, .8);
   }
 }
