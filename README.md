@@ -4,24 +4,16 @@ VIP视频解析-前端页面，解析功能由第三方接口实现，本项目�
 
 此项目仅用于Web开发学习、交流，请勿商用。
 
----
-
-## 运行环境
-
-纯静态页面，浏览器打开即用，无需PHP运行环境。
-
-代码总体积小于 0.1MB。
-
-CodePen 版本在这里 ✏️ [codepen.io](https://codepen.io/jiangmenghao/pen/gOrrQGQ).（年久失修）
-
----
+## 更新记录
++ 2021-02-21 新增「定时关闭」功能
 
 ## 在线演示
 🔗 [Github Pages](https://jiangmenghao.github.io/vip-video-player/)
 
 ## 截图
 ![PC截图](./demo-imgs/demo-screenshot.png 'PC截图')
-![PC截图](./demo-imgs/demo-screenshot-playing.png 'PC截图')
+![PC截图](./demo-imgs/demo-screenshot-playing.png 'PC截图-视频播放')
+![PC截图](./demo-imgs/timer.png 'PC截图-定时器')
 
 ## 支持深色模式
 <p>
@@ -29,6 +21,9 @@ CodePen 版本在这里 ✏️ [codepen.io](https://codepen.io/jiangmenghao/pen/
   <img src="./demo-imgs/dark.JPEG" width="300px" title="深色模式">
 </p>
 
+## 已知bug
+1. 小米手机浏览器加载视频完成后，「左上」和「右上」的圆角失效，显示为直角。（此bug有可能是Android都有的问题，但Android我只测试过小米手机）
+2. iOS微信内打开时，翻页到正面后，视频仍会继续播放，几分钟后才停止。**使用Safari浏览器打开即可解决**
 ---
 
 ## Show your support
