@@ -332,7 +332,7 @@ body {
 /* iPad及以上 & 横屏*/
 @media screen and (min-width: 927px) {
   .card.turn-to-back {
-    height: 90vh;
+    height: 85vh;
   }
 
   .copyright .cprt {
