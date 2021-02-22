@@ -45,7 +45,7 @@ timer30.addEventListener('click', (e) => {
   setTimer.classList.remove('show-set-timer')
   timer = window.setTimeout(function turnToFront() {
     returnBtn.click()
-  }, 1800)
+  }, 1800000)
 })
 
 timer60.addEventListener('click', (e) => {
