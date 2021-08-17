@@ -8,7 +8,7 @@ VIP视频解析-前端页面，解析功能由第三方接口实现，本项目�
 + 2021-02-21 新增「定时关闭」功能
 
 ## 在线演示
-🔗 [Github Pages](https://jiangmenghao.github.io/vip-video-player/)
+🔗 [https://vip.heimaokeji.xyz](https://vip.heimaokeji.xyz)
 
 ## 截图
 ![PC截图](./demo-imgs/demo-screenshot.png 'PC截图')
