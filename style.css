@@ -377,6 +377,10 @@ body {
     opacity: .8;
   }
 
+  .turn-to-back .card-front img {
+    opacity: 1;
+  }
+
   .card-front .desc .text,
   .card-front form .apis,
   .card-front form #media-url {
